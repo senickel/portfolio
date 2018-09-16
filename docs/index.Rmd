@@ -1,0 +1,58 @@
+---
+title: "Portfolio"
+author: "Sebastian Nickel"
+date: "16 September 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(tidyverse)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+  
+## Geosampling
+```{r geosamplingtab}
+data.frame(Type=c("[Package](github.com/senickel/geosampling)","[Documentation](senickel.github.io/sampling_documentation)","[ShinyApp](blacksheep.shinyapps.io/nairobisampling)"),
+           Description=c("R Package to conduct geosampling","Documentation and demonstration of geosampling","Demonstrating both sampling strategies for Nairobi")) %>% 
+  kable()
+```
+
+  
+## readKml
+```{r tabreadkml}
+data.frame(Type="[StackOverflow Answer](https://stackoverflow.com/a/51657844/2763996)",
+               Description="When reading KML files on Windows, the Extended Data is not read. My answer provides a solution to this problem by opening the KML as an XML file.") %>% 
+  kable()
+```
+  
+
+## Towntwinning
+```{r twiningtab}
+
+data.frame(Type=c("[Article]()","[Replication Files]()","[ShinyApp]()","[Package]()"),
+           Description=c("Bussmann/Nickel 2018. Study about towntwinning networks in the Baltic Sea region. Towntwinning data scraped from Wikipedia.",
+                         "Data and files to replicate graphs.",
+                         "ShinyApp to export DOT graphs to png.",
+                         "Code for exporting DOT graphs to png.")) %>% 
+  kable()
+
+```
+
+  
+## Accessing Stata through R
+
+```{r tabottakring}
+data.frame(Type="[Package](github.com/senickel/ottakring)",
+           Description="Access Stata through R without the necessity of writing any Stata code. (WIP)") %>% 
+  kable()
+```
+
+
+
+
+## Paper: Lost in Aggregation
+
+## Analysis: Malawi Boreholes
