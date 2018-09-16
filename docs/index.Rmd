@@ -55,4 +55,9 @@ data.frame(Type="[Package](github.com/senickel/ottakring)",
 
 ## Paper: Lost in Aggregation
 
+
 ## Analysis: Malawi Boreholes
+
+
+## MCA-PCA modernization index
+[link](https://senickel.github.io/portfolio/resources/MCA-PCA - modernization index.pdf)
